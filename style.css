@@ -1,0 +1,140 @@
+
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f1f5f9;
+    font-family: Arial, sans-serif;
+    color: #1e293b;
+}
+
+/* Login heading */
+h1 {
+    margin-bottom: 25px;
+    color: #047857;
+}
+
+/* Login form */
+form {
+    width: 90%;
+    max-width: 400px;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Form labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+/* Login button */
+button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 6px;
+    background: #047857;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #065f46;
+}
+
+/* Error message */
+form + p {
+    color: #dc2626;
+    font-weight: bold;
+}
+
+/* Dashboard card */
+.dashboard-card {
+    width: 90%;
+    max-width: 600px;
+    padding: 40px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+/* Dashboard heading */
+.dashboard-card h1 {
+    margin-top: 0;
+}
+
+/* Welcome message */
+.dashboard-card h2 {
+    color: #334155;
+    margin-bottom: 15px;
+}
+
+/* Dashboard paragraph */
+.dashboard-card p {
+    color: #64748b;
+    line-height: 1.6;
+}
+
+/* Logout button */
+.logout-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #dc2626;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.logout-button:hover {
+    background: #b91c1c;
+}
+/* Login form improvements */
+form {
+    border: 1px solid #e2e8f0;
+}
+
+/* Input focus effect */
+input:focus {
+    outline: none;
+    border-color: #047857;
+    box-shadow: 0 0 0 3px rgba(4, 120, 87, 0.12);
+}
+
+/* Smooth button transition */
+button,
+.logout-button {
+    transition: background 0.3s ease;
+}
+
+/* Page heading */
+body > h1 {
+    font-size: 28px;
+    letter-spacing: -0.5px;
+}
